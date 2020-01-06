@@ -10013,12 +10013,8 @@ h3 {
   }
 }
 @font-face {
-  font-family: "ubuntu";
-  src: url("../../public/font/Ubuntu-regular.ttf");
-}
-@font-face {
-  font-family: "ubuntu";
-  src: url("../../public/font/Ubuntu-regular.ttf");
+  font-family: "pff";
+  src: url("../../public/fonts/Courgette-Regular.ttf");
 }
 /*!
  * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
@@ -15925,9 +15921,12 @@ nav ul li:hover {
   margin-bottom: 600px;
 }
 .taste p {
-  font-family: toste;
+  font-family: pff;
   font-size: 50px;
   margin-bottom: 0px;
+}
+.taste span {
+  font-family: pff;
 }
 .taste .lien-un {
   border: black solid 1px;
@@ -15945,6 +15944,67 @@ nav ul li:hover {
 
 .merde {
   filter: brightness(30%);
+}
+
+.section-un {
+  background-image: url(../../public/images/main_bg.jpg);
+}
+.section-un .mx-auto {
+  background-color: white;
+}
+.section-un .box-2 {
+  float: right;
+}
+.section-un .block {
+  display: flex;
+}
+.section-un h2 {
+  text-align: center;
+  font-family: pff;
+}
+.section-un p {
+  text-align: center;
+  margin: 0px 20%;
+}
+
+#list-tab {
+  border-right: 1px solid grey;
+  padding-right: 5px;
+}
+#list-tab i {
+  font-size: 60px;
+  padding: 3px 0px;
+}
+#list-tab i:hover {
+  color: red;
+}
+#list-tab a {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  font-family: pff;
+  font-weight: bold;
+  font-size: 30px;
+}
+#list-tab a:hover {
+  border-right: 10px red solid;
+}
+#list-tab .dernier {
+  border-bottom: none;
+}
+
+#list-home img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.em {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.section-deux .meet {
+  background-image: url(../../public/images/team_background.jpg);
 }
 
 /*# sourceMappingURL=styles.css.map */
