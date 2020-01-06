@@ -27,7 +27,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-  --zak: purple;
+  --zak: red;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -1884,21 +1884,21 @@ pre code {
 .table-zak,
 .table-zak > th,
 .table-zak > td {
-  background-color: #dbb8db;
+  background-color: #ffb8b8;
 }
 .table-zak th,
 .table-zak td,
 .table-zak thead th,
 .table-zak tbody + tbody {
-  border-color: #bd7abd;
+  border-color: #ff7a7a;
 }
 
 .table-hover .table-zak:hover {
-  background-color: #d2a7d2;
+  background-color: #ff9f9f;
 }
 .table-hover .table-zak:hover > td,
 .table-hover .table-zak:hover > th {
-  background-color: #d2a7d2;
+  background-color: #ff9f9f;
 }
 
 .table-active,
@@ -2691,32 +2691,32 @@ fieldset:disabled a.btn {
 
 .btn-zak {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: red;
+  border-color: red;
 }
 .btn-zak:hover {
   color: #fff;
-  background-color: #5a005a;
-  border-color: #4d004d;
+  background-color: #d90000;
+  border-color: #cc0000;
 }
 .btn-zak:focus, .btn-zak.focus {
   color: #fff;
-  background-color: #5a005a;
-  border-color: #4d004d;
-  box-shadow: 0 0 0 0.2rem rgba(147, 38, 147, 0.5);
+  background-color: #d90000;
+  border-color: #cc0000;
+  box-shadow: 0 0 0 0.2rem rgba(255, 38, 38, 0.5);
 }
 .btn-zak.disabled, .btn-zak:disabled {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: red;
+  border-color: red;
 }
 .btn-zak:not(:disabled):not(.disabled):active, .btn-zak:not(:disabled):not(.disabled).active, .show > .btn-zak.dropdown-toggle {
   color: #fff;
-  background-color: #4d004d;
-  border-color: #400040;
+  background-color: #cc0000;
+  border-color: #bf0000;
 }
 .btn-zak:not(:disabled):not(.disabled):active:focus, .btn-zak:not(:disabled):not(.disabled).active:focus, .show > .btn-zak.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(147, 38, 147, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 38, 38, 0.5);
 }
 
 .btn-outline-primary {
@@ -2920,28 +2920,28 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-zak {
-  color: purple;
-  border-color: purple;
+  color: red;
+  border-color: red;
 }
 .btn-outline-zak:hover {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: red;
+  border-color: red;
 }
 .btn-outline-zak:focus, .btn-outline-zak.focus {
-  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
 }
 .btn-outline-zak.disabled, .btn-outline-zak:disabled {
-  color: purple;
+  color: red;
   background-color: transparent;
 }
 .btn-outline-zak:not(:disabled):not(.disabled):active, .btn-outline-zak:not(:disabled):not(.disabled).active, .show > .btn-outline-zak.dropdown-toggle {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: red;
+  border-color: red;
 }
 .btn-outline-zak:not(:disabled):not(.disabled):active:focus, .btn-outline-zak:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-zak.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
 }
 
 .btn-link {
@@ -4821,15 +4821,15 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .badge-zak {
   color: #fff;
-  background-color: purple;
+  background-color: red;
 }
 a.badge-zak:hover, a.badge-zak:focus {
   color: #fff;
-  background-color: #4d004d;
+  background-color: #cc0000;
 }
 a.badge-zak:focus, a.badge-zak.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
 }
 
 .jumbotron {
@@ -4974,15 +4974,15 @@ a.badge-zak:focus, a.badge-zak.focus {
 }
 
 .alert-zak {
-  color: #430043;
-  background-color: #e6cce6;
-  border-color: #dbb8db;
+  color: #850000;
+  background-color: #ffcccc;
+  border-color: #ffb8b8;
 }
 .alert-zak hr {
-  border-top-color: #d2a7d2;
+  border-top-color: #ff9f9f;
 }
 .alert-zak .alert-link {
-  color: #100010;
+  color: #520000;
 }
 
 @keyframes progress-bar-stripes {
@@ -5343,17 +5343,17 @@ a.badge-zak:focus, a.badge-zak.focus {
 }
 
 .list-group-item-zak {
-  color: #430043;
-  background-color: #dbb8db;
+  color: #850000;
+  background-color: #ffb8b8;
 }
 .list-group-item-zak.list-group-item-action:hover, .list-group-item-zak.list-group-item-action:focus {
-  color: #430043;
-  background-color: #d2a7d2;
+  color: #850000;
+  background-color: #ff9f9f;
 }
 .list-group-item-zak.list-group-item-action.active {
   color: #fff;
-  background-color: #430043;
-  border-color: #430043;
+  background-color: #850000;
+  border-color: #850000;
 }
 
 .close {
@@ -6189,13 +6189,13 @@ button.bg-dark:focus {
 }
 
 .bg-zak {
-  background-color: purple !important;
+  background-color: red !important;
 }
 
 a.bg-zak:hover, a.bg-zak:focus,
 button.bg-zak:hover,
 button.bg-zak:focus {
-  background-color: #4d004d !important;
+  background-color: #cc0000 !important;
 }
 
 .bg-white {
@@ -6279,7 +6279,7 @@ button.bg-zak:focus {
 }
 
 .border-zak {
-  border-color: purple !important;
+  border-color: red !important;
 }
 
 .border-white {
@@ -9866,11 +9866,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-zak {
-  color: purple !important;
+  color: red !important;
 }
 
 a.text-zak:hover, a.text-zak:focus {
-  color: #340034 !important;
+  color: #b30000 !important;
 }
 
 .text-body {
@@ -15892,6 +15892,10 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+.section-general {
+  background-image: url(../../public/images/main_bg.jpg);
+}
+
 nav {
   margin-bottom: 190px;
 }
@@ -15946,9 +15950,6 @@ nav ul li:hover {
   filter: brightness(30%);
 }
 
-.section-un {
-  background-image: url(../../public/images/main_bg.jpg);
-}
 .section-un .mx-auto {
   background-color: white;
 }
@@ -16003,8 +16004,21 @@ nav ul li:hover {
   border-bottom: 1px solid grey;
 }
 
-.section-deux .meet {
-  background-image: url(../../public/images/team_background.jpg);
+.section-deux {
+  background-color: black;
+}
+.section-deux h2 {
+  text-align: center;
+  font-family: pff;
+}
+.section-deux span {
+  color: white;
+}
+.section-deux .chef {
+  border-bottom: 1px solid grey;
+}
+.section-deux p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
