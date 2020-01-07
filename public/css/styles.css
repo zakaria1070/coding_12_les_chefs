@@ -16068,4 +16068,31 @@ nav ul li:hover {
   border: none;
 }
 
+.testimonials {
+  background-image: url(../../public/images/testimonials_background.jpg);
+}
+.testimonials h2 {
+  text-align: center;
+}
+
+#meuf {
+  border-radius: 50%;
+  width: 150px;
+  border: 5px solid white;
+}
+
+.meuf-un {
+  margin-left: 50px;
+}
+
+.meuf {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.groupe {
+  display: flex;
+}
+
 /*# sourceMappingURL=styles.css.map */
