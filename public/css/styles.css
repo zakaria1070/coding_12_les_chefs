@@ -16021,4 +16021,51 @@ nav ul li:hover {
   text-align: center;
 }
 
+.fond-verre {
+  background-image: url(../../public/images/book_table_bg.jpg);
+  border-radius: 50px;
+  padding: 140px 25px;
+}
+.fond-verre p {
+  margin-bottom: 40px;
+}
+.fond-verre input {
+  border-radius: 10px;
+  padding: 15px 0px;
+}
+.fond-verre select {
+  border-radius: 10px;
+}
+.fond-verre button {
+  border-radius: 30px;
+}
+
+.espace {
+  margin: 13%;
+}
+
+.espace-deux {
+  margin: 10%;
+}
+.espace-deux img {
+  width: 400px;
+  height: 200px;
+  border: 5px grey solid;
+  border-radius: 30px;
+}
+.espace-deux button {
+  border-radius: 10px;
+  border: none;
+  margin-top: -25px;
+  position: absolute;
+}
+.espace-deux h4 {
+  margin-top: 20px;
+}
+
+.spécial {
+  border-radius: 30px;
+  border: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
