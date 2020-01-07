@@ -16081,10 +16081,6 @@ nav ul li:hover {
   border: 5px solid white;
 }
 
-.meuf-un {
-  margin-left: 50px;
-}
-
 .meuf {
   border: 1px solid white;
   border-radius: 5px;
@@ -16093,6 +16089,25 @@ nav ul li:hover {
 
 .groupe {
   display: flex;
+}
+
+.contact {
+  text-align: center;
+}
+
+.information {
+  margin: 0% 30%;
+}
+
+.info {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  color: white;
+}
+.info i {
+  font-size: 50px;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
